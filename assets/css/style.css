@@ -216,11 +216,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/hero-bg-mobile.jpg") no repeat top center;
   background-size: cover;
 }
-@media (min-width: 768px) {
-  #hero {
-  background: url("../img/hero-bg.jpg") no-repeat center top;
-  }
-}
 
 #hero:before {
   content: "";
@@ -259,6 +254,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+}
+
+@media (min-width: 768px) {
+  #hero {
+  background: url("../img/hero-bg.jpg") no-repeat center top;
+  }
 }
 
 @media (min-width: 1024px) {
