@@ -230,7 +230,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-container {
   position: relative;
-  top: 400px;
   z-index: 2;
   min-width: 300px;
 }
@@ -266,6 +265,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero {
     background: url("../img/profile-img.jpg") top center;
+  }
+  #hero .hero-container {
+    top: 100px;
   }
   #hero h1 {
     font-size: 28px;
